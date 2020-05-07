@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Session>
+    <Ekzam>
+        <Course>1</Course>
+        <Group>1550203/2</Group>
+        <LastName>Ivanov</LastName>
+        <Document>265789123</Document>
+        <Lesson>Informatica</Lesson>
+        <Mark>5</Mark>
+    </Ekzam>
+
+    <Ekzam>
+        <Course>2</Course>
+        <Group>2550203/2</Group>
+        <LastName>Banitov</LastName>
+        <Document>265789123</Document>
+        <Lesson>Informatica</Lesson>
+        <Mark>5</Mark>
+    </Ekzam>
+
+    <Ekzam>
+        <Course>3</Course>
+        <Group>3550333/3</Group>
+        <LastName>Dovlaton</LastName>
+        <Document>51231456</Document>
+        <Lesson>Fizika</Lesson>
+        <Mark>5</Mark>
+    </Ekzam>
+
+    <Ekzam>
+        <Course>4</Course>
+        <Group>47123/2</Group>
+        <LastName>Sidorov</LastName>
+        <Document>284569782</Document>
+        <Lesson>Fizkultura</Lesson>
+        <Mark>4</Mark>
+    </Ekzam>
+
+    <Ekzam>
+        <Course>5</Course>
+        <Group>571223/1</Group>
+        <LastName>Petrov</LastName>
+        <Document>263144123</Document>
+        <Lesson>MacroEconomic</Lesson>
+        <Mark>5</Mark>
+    </Ekzam>
+</Session>
