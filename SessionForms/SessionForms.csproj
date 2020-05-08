@@ -57,6 +57,7 @@
     <Compile Include="AddRow.Designer.cs">
       <DependentUpon>AddRow.cs</DependentUpon>
     </Compile>
+    <Compile Include="FileChecker.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>

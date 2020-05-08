@@ -43,7 +43,7 @@ namespace SessionForms
 
 		private void CheckCourse(object sender, EventArgs e)
 		{
-			if (Regex.IsMatch(Course.Text, "^[0-9]+$"))
+			if (FileChecker.CheckCourse(Course.Text))
 				return;
 			MessageBox.Show("WrongInput");
 			Course.Text = "";
@@ -51,7 +51,7 @@ namespace SessionForms
 		
 		private void CheckGroup(object sender, EventArgs e)
 		{
-			if (Regex.IsMatch(Group.Text, "^[0-9]+/[0-9]+$"))
+			if (FileChecker.CheckGroup(Group.Text))
 				return;
 			MessageBox.Show("WrongInput");
 			Group.Text = "";
@@ -59,7 +59,7 @@ namespace SessionForms
 		
 		private void CheckLastName(object sender, EventArgs e)
 		{
-			if (Regex.IsMatch(LastName.Text, "^[a-zA-Z]+$"))
+			if (FileChecker.CheckLastName(LastName.Text))
 				return;
 			MessageBox.Show("WrongInput");
 			LastName.Text = "";
@@ -67,7 +67,7 @@ namespace SessionForms
 		
 		private void CheckDocument(object sender, EventArgs e)
 		{
-			if (Regex.IsMatch(Document.Text, "^[0-9]+$"))
+			if (FileChecker.CheckDocument(Document.Text))
 				return;
 			MessageBox.Show("WrongInput");
 			Document.Text = "";
@@ -75,7 +75,7 @@ namespace SessionForms
 		
 		private void CheckLesson(object sender, EventArgs e)
 		{
-			if (Regex.IsMatch(Lesson.Text, "^[a-zA-Z ]+$"))
+			if (FileChecker.CheckLesson(Lesson.Text))
 				return;
 			MessageBox.Show("WrongInput");
 			Lesson.Text = "";
@@ -83,7 +83,7 @@ namespace SessionForms
 		
 		private void CheckMark(object sender, EventArgs e)
 		{
-			if (Regex.IsMatch(Mark.Text, "^[2-5]$"))
+			if (FileChecker.CheckMark(Mark.Text))
 				return;
 			MessageBox.Show("WrongInput");
 			Mark.Text = "";
